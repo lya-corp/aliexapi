@@ -1,4 +1,4 @@
-#aliexapi
+# aliexapi
 [![Build Status](https://travis-ci.org/clchangnet/aliexapi.svg?branch=master)](https://travis-ci.org/clchangnet/aliexapi) [![Latest Stable Version](https://poser.pugx.org/clchangnet/aliexapi/v/stable)](https://packagist.org/packages/clchangnet/aliexapi) [![Total Downloads](https://poser.pugx.org/clchangnet/aliexapi/downloads)](https://packagist.org/packages/clchangnet/aliexapi) 
 
 AliexApi is a PHP library for AliExpress Affiliate API program. You can use it to fetch product data. It interfaces with Aliexpress API functions such as listPromotionProduct, getPromotionProductDetail and getPromotionLinks. For more info on the API, visit [http://portals.aliexpress.com/help/help_center_API.html](http://portals.aliexpress.com/help/help_center_API.html). To see a working demo site, goto [cheap card phone](http://denwa.iopenshop.net).
@@ -33,11 +33,11 @@ $ composer install
 
 This will update the autoloader file and the library would be found once you include it in your code.
 
-##Basic Usage:
+## Basic Usage:
 
 Here is an example how to use Aliexpress API listPromotionProduct to search for products using keywords.
 
-###Search Products
+### Search Products
 
 *Note:*
 To search by category. uncomment 'categoryId' and comment 'keywords' in searchItems and listPromotionProduct
@@ -104,7 +104,7 @@ class AliapiController extends Controller
 
 ```
 
-###Get Affiliate Links
+### Get Affiliate Links
 
 ```php
     public function getPromotionLinks()
@@ -129,6 +129,6 @@ Use ListProducts to search using keywords and set what fields to return.
 Use GetLinksTo convert product urls to your affiliate link.
 
 
-##Webservice Documentation:
+## Webservice Documentation:
 
 To find out about what fields can be return through API request, goto http://portals.aliexpress.com/help/help_center_API.html
